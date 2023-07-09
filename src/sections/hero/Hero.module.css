@@ -1,0 +1,18 @@
+
+.heroContainer {
+    background-image: url('../../images/heroCover.png');
+    height: calc(100vh - 70px);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 820px) {
+    
+    .heroContainer {
+        background-image: url('../../images/smallhero.png');
+        background-repeat: repeat;
+
+    }
+}
