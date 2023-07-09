@@ -1,6 +1,6 @@
 import styles from './AppSection.module.css';
 import phone from '../../images/realphon.png';
-import appStore from '../../images/appStore.png';
+import appStore from '../../images/appstore.png';
 
 export const AppSection = () => {
     return (
