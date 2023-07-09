@@ -1,10 +1,23 @@
 
 .heroContainer {
     background-image: url('../../images/heroCover.png');
-    height: calc(100vh - 70px);
+    height: calc(100vh - 78px);
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.heroContainer h1 {
+    color: white;
+    position: absolute;
+    left: 12%;
+    top: 35%;
+    display: flex;
+    align-items: center;
+    width: min(40%, 650px);
 }
 
 
@@ -13,6 +26,11 @@
     .heroContainer {
         background-image: url('../../images/smallhero.png');
         background-repeat: repeat;
+    }
 
+    .heroContainer h1 {
+        position: static;
+        width: 65%;
+        margin: 15rem auto;
     }
 }

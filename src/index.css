@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Poppins';
+  scroll-behavior: smooth;
 }
 *,
 *:before,
@@ -51,7 +52,7 @@ a {
 }
 
 .nav-link:hover {
-  color: red;
+  color: rgb(252, 75, 75);
   transition: 0.3s;
 }
 
@@ -107,6 +108,7 @@ a {
 
   .nav-menu.active {
     left: 0;
+    z-index: 2;
   }
 
 
