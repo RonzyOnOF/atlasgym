@@ -34,3 +34,10 @@
         margin: 15rem auto;
     }
 }
+
+
+@media screen and (max-width: 420px) {
+    .heroContainer h1 {
+        font-size: 1.2rem;
+    }
+}

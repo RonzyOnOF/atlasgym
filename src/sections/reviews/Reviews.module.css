@@ -1,0 +1,55 @@
+
+.reviewsSectionContainer {
+    margin-top: 250px;
+    color: white;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.review {
+    margin-top: 100px;
+    width: 30%;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+
+#pfp {
+    width: 45%;
+    border-radius: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.stars {
+    display: flex;
+    width: 75%;
+    margin: 10px auto;
+    justify-content: center;
+    gap: 5px;
+}
+
+#star {
+    width: 10%;
+}
+
+@media screen and (max-width: 820px) {
+
+    .reviews {
+        flex-wrap: wrap;
+    }
+
+    .review {
+        width: 80%;
+    }
+
+}

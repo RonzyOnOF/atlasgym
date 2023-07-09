@@ -1,0 +1,95 @@
+
+.plansSectionContainer {
+    color: white;
+    margin-top: 350px;
+}
+
+.plansContainer {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto 40px;
+    width: 60%;
+}
+
+
+.header h2 {
+    color: var(--red-color);
+    display: inline;
+    position: relative;
+}
+
+.header h2::after {
+    content: '';
+    background-color: var(--red-color);
+    height: 2px;
+    width: 180px;
+    position: absolute;
+    top: -14px;
+    left: 0;
+}
+
+
+.plan {
+    border-radius: 5px;
+    height: 500px;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    margin-top: 80px;
+}
+
+#planName {
+    font-size: 1.3rem;
+    color: var(--red-color);
+}
+
+.plan:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#price {
+    font-size: 3.5rem;
+}
+
+#month {
+    font-size: 1.5rem;
+}
+
+
+.list p {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .plansContainer {
+        flex-wrap: wrap;
+    }
+
+    .plan {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 789px) {
+
+    .header h2::after {
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 621px) {
+
+    .header h2::after {
+        display: none;
+    }
+}
